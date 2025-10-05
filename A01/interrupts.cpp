@@ -6,7 +6,7 @@
  * SYSC4001 Assignment 1, The Interrupt Simulator
  */
 
-#include<interrupts.hpp>
+#include"interrupts.hpp"
 #include <iostream>
 #include<fstream>
 #include<string>
