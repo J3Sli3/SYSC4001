@@ -1,7 +1,7 @@
 /**
  *
  * @file interrupts.cpp
- * @author Sasisekhar Govind, Esli Emmanuel Konate 101322259, Nitish, Grover
+ * @author Sasisekhar Govind, Esli Emmanuel Konate 101322259, Nitish Grover 101324174 
  *
  * SYSC4001 Assignment 1, The Interrupt Simulator
  */
