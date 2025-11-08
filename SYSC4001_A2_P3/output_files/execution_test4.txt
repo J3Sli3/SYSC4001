@@ -1,0 +1,9 @@
+0, 1, switch to kernel mode
+1, 10, context saved
+11, 1, find vector 2 in memory position 0x0004
+12, 1, load address 0X0695 into the PC
+13, 12, cloning the PCB
+25, 0, the scheduler called
+25, 1, IRET
+26, 50, CPU Burst
+76, 60, CPU Burst
