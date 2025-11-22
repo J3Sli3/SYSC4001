@@ -1,0 +1,50 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 |  5 |       NEW |     READY |
+|                 0 |  5 |     READY |   RUNNING |
+|               100 |  3 |       NEW |     READY |
+|               100 |  5 |   RUNNING |     READY |
+|               100 |  3 |     READY |   RUNNING |
+|               200 |  1 |       NEW |     READY |
+|               200 |  3 |   RUNNING |     READY |
+|               200 |  1 |     READY |   RUNNING |
+|               300 |  1 |   RUNNING |     READY |
+|               300 |  1 |     READY |   RUNNING |
+|               400 |  1 |   RUNNING |   WAITING |
+|               400 |  3 |     READY |   RUNNING |
+|               420 |  1 |   WAITING |     READY |
+|               420 |  3 |   RUNNING |     READY |
+|               420 |  1 |     READY |   RUNNING |
+|               520 |  1 |   RUNNING |     READY |
+|               520 |  1 |     READY |   RUNNING |
+|               619 |  1 |   RUNNING |TERMINATED |
+|               620 |  3 |     READY |   RUNNING |
+|               720 |  3 |   RUNNING |     READY |
+|               720 |  3 |     READY |   RUNNING |
+|               820 |  3 |   RUNNING |     READY |
+|               820 |  3 |     READY |   RUNNING |
+|               900 |  3 |   RUNNING |   WAITING |
+|               900 |  5 |     READY |   RUNNING |
+|               930 |  3 |   WAITING |     READY |
+|               930 |  5 |   RUNNING |     READY |
+|               930 |  3 |     READY |   RUNNING |
+|              1030 |  3 |   RUNNING |     READY |
+|              1030 |  3 |     READY |   RUNNING |
+|              1129 |  3 |   RUNNING |TERMINATED |
+|              1130 |  5 |     READY |   RUNNING |
+|              1230 |  5 |   RUNNING |     READY |
+|              1230 |  5 |     READY |   RUNNING |
+|              1330 |  5 |   RUNNING |     READY |
+|              1330 |  5 |     READY |   RUNNING |
+|              1430 |  5 |   RUNNING |     READY |
+|              1430 |  5 |     READY |   RUNNING |
+|              1530 |  5 |   RUNNING |     READY |
+|              1530 |  5 |     READY |   RUNNING |
+|              1600 |  5 |   RUNNING |   WAITING |
+|              1640 |  5 |   WAITING |     READY |
+|              1640 |  5 |     READY |   RUNNING |
+|              1740 |  5 |   RUNNING |     READY |
+|              1740 |  5 |     READY |   RUNNING |
+|              1839 |  5 |   RUNNING |TERMINATED |
++------------------------------------------------+

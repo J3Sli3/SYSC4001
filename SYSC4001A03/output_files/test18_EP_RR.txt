@@ -1,0 +1,42 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 |  1 |       NEW |     READY |
+|                 0 |  1 |     READY |   RUNNING |
+|                50 |  2 |       NEW |     READY |
+|               100 |  3 |       NEW |     READY |
+|               100 |  1 |   RUNNING |     READY |
+|               100 |  1 |     READY |   RUNNING |
+|               150 |  4 |       NEW |     READY |
+|               150 |  1 |   RUNNING |   WAITING |
+|               150 |  2 |     READY |   RUNNING |
+|               170 |  1 |   WAITING |     READY |
+|               170 |  2 |   RUNNING |     READY |
+|               170 |  1 |     READY |   RUNNING |
+|               219 |  1 |   RUNNING |TERMINATED |
+|               220 |  2 |     READY |   RUNNING |
+|               320 |  2 |   RUNNING |     READY |
+|               320 |  2 |     READY |   RUNNING |
+|               400 |  2 |   RUNNING |   WAITING |
+|               400 |  3 |     READY |   RUNNING |
+|               425 |  2 |   WAITING |     READY |
+|               425 |  3 |   RUNNING |     READY |
+|               425 |  2 |     READY |   RUNNING |
+|               474 |  2 |   RUNNING |TERMINATED |
+|               475 |  3 |     READY |   RUNNING |
+|               575 |  3 |   RUNNING |     READY |
+|               575 |  3 |     READY |   RUNNING |
+|               590 |  3 |   RUNNING |   WAITING |
+|               590 |  4 |     READY |   RUNNING |
+|               608 |  3 |   WAITING |     READY |
+|               608 |  4 |   RUNNING |     READY |
+|               608 |  3 |     READY |   RUNNING |
+|               647 |  3 |   RUNNING |TERMINATED |
+|               648 |  4 |     READY |   RUNNING |
+|               748 |  4 |   RUNNING |     READY |
+|               748 |  4 |     READY |   RUNNING |
+|               810 |  4 |   RUNNING |   WAITING |
+|               832 |  4 |   WAITING |     READY |
+|               832 |  4 |     READY |   RUNNING |
+|               871 |  4 |   RUNNING |TERMINATED |
++------------------------------------------------+

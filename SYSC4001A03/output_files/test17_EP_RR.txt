@@ -1,0 +1,44 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 |  1 |       NEW |     READY |
+|                 0 |  1 |     READY |   RUNNING |
+|               100 |  1 |   RUNNING |     READY |
+|               100 |  1 |     READY |   RUNNING |
+|               200 |  1 |   RUNNING |     READY |
+|               200 |  1 |     READY |   RUNNING |
+|               300 |  1 |   RUNNING |     READY |
+|               300 |  1 |     READY |   RUNNING |
+|               400 |  1 |   RUNNING |   WAITING |
+|               430 |  1 |   WAITING |     READY |
+|               430 |  1 |     READY |   RUNNING |
+|               500 |  2 |       NEW |     READY |
+|               529 |  1 |   RUNNING |TERMINATED |
+|               530 |  2 |     READY |   RUNNING |
+|               630 |  2 |   RUNNING |     READY |
+|               630 |  2 |     READY |   RUNNING |
+|               730 |  2 |   RUNNING |     READY |
+|               730 |  2 |     READY |   RUNNING |
+|               830 |  2 |   RUNNING |     READY |
+|               830 |  2 |     READY |   RUNNING |
+|               930 |  2 |   RUNNING |     READY |
+|               930 |  2 |     READY |   RUNNING |
+|              1000 |  3 |       NEW |     READY |
+|              1030 |  2 |   RUNNING |   WAITING |
+|              1030 |  3 |     READY |   RUNNING |
+|              1070 |  2 |   WAITING |     READY |
+|              1070 |  3 |   RUNNING |     READY |
+|              1070 |  2 |     READY |   RUNNING |
+|              1169 |  2 |   RUNNING |TERMINATED |
+|              1170 |  3 |     READY |   RUNNING |
+|              1270 |  3 |   RUNNING |     READY |
+|              1270 |  3 |     READY |   RUNNING |
+|              1370 |  3 |   RUNNING |     READY |
+|              1370 |  3 |     READY |   RUNNING |
+|              1470 |  3 |   RUNNING |     READY |
+|              1470 |  3 |     READY |   RUNNING |
+|              1480 |  3 |   RUNNING |   WAITING |
+|              1505 |  3 |   WAITING |     READY |
+|              1505 |  3 |     READY |   RUNNING |
+|              1604 |  3 |   RUNNING |TERMINATED |
++------------------------------------------------+

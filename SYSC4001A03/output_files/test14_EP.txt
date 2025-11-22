@@ -1,0 +1,37 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 |  1 |       NEW |     READY |
+|                 0 |  1 |     READY |   RUNNING |
+|                50 |  2 |       NEW |     READY |
+|               100 |  3 |       NEW |     READY |
+|               500 |  1 |   RUNNING |   WAITING |
+|               500 |  2 |     READY |   RUNNING |
+|               530 |  1 |   WAITING |     READY |
+|              1300 |  2 |   RUNNING |   WAITING |
+|              1300 |  1 |     READY |   RUNNING |
+|              1325 |  2 |   WAITING |     READY |
+|              1399 |  1 |   RUNNING |TERMINATED |
+|              1400 |  2 |     READY |   RUNNING |
+|              1499 |  2 |   RUNNING |TERMINATED |
+|              1500 |  3 |     READY |   RUNNING |
+|              1580 |  3 |   RUNNING |   WAITING |
+|              1650 |  3 |   WAITING |     READY |
+|              1650 |  3 |     READY |   RUNNING |
+|              1730 |  3 |   RUNNING |   WAITING |
+|              1800 |  3 |   WAITING |     READY |
+|              1800 |  3 |     READY |   RUNNING |
+|              1880 |  3 |   RUNNING |   WAITING |
+|              1950 |  3 |   WAITING |     READY |
+|              1950 |  3 |     READY |   RUNNING |
+|              2030 |  3 |   RUNNING |   WAITING |
+|              2100 |  3 |   WAITING |     READY |
+|              2100 |  3 |     READY |   RUNNING |
+|              2180 |  3 |   RUNNING |   WAITING |
+|              2250 |  3 |   WAITING |     READY |
+|              2250 |  3 |     READY |   RUNNING |
+|              2330 |  3 |   RUNNING |   WAITING |
+|              2400 |  3 |   WAITING |     READY |
+|              2400 |  3 |     READY |   RUNNING |
+|              2419 |  3 |   RUNNING |TERMINATED |
++------------------------------------------------+
