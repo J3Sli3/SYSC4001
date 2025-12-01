@@ -125,6 +125,7 @@ std::tuple<std::string> run_simulation(std::vector<PCB> list_processes){
                 break;
             }
         }
+        
         execution_status+= print_exec_footer();
         return std::make_tuple(execution_status);
     }
