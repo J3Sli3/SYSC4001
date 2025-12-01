@@ -28,7 +28,7 @@ std::tuple<std::string> run_simulation(std::vector<PCB> list_processes){
     std::string execution_status;
     execution_status = print_exec_header();
 
-    while(!all_process_terminated(job_list) && !(job_list.empty())){
+    while(!all_process_terminated(job_list) && !job_list.empty()){
         //first we check for new arrivals
         for(auto &process : list_processes){
             if (process.arrival_time == current_time && process.state == NOT_ASSIGNED){
